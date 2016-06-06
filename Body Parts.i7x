@@ -66,6 +66,7 @@ A person has a decency. The decency of a person is usually undefined.
 
 [This updates the decency for a person, based on which body parts and other coverable clothing is visible.]
 To update decency for (P - a person):
+	Now the decency of P is undefined;
 	Let considered-items be the list of coverables worn by P;
 	Add the list of body parts that is part of P to considered-items;
 	Repeat with I running through considered-items:
@@ -331,7 +332,7 @@ Section - Version History
 
 Release 5 (v1.1a)
 
-	Bug fix on ass-synonyms.
+	Bug fix on ass-synonyms and decency.
 	Added a hack (courtesy of Mr. Flibble) for pronouns on body parts.
 
 Release 4 (v1.1)

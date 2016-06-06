@@ -1,4 +1,4 @@
-Version 4/150126 of Body Parts by Fictitious Frode begins here.
+Version 5/ of Body Parts by Fictitious Frode begins here.
 
 "Body parts are presented that can be added to any or all persons in a story for greater detail, and sets up a framework for how these might be covered."
 
@@ -106,6 +106,16 @@ A thing has a sexual ability. The sexual ability of a thing is usually non-sexua
 
 Does the player mean examining a body part that is part of the player: It is unlikely.
 
+A body part has a text called owner's pronoun. The owner's pronoun is usually "her".
+Understand the owner's pronoun property as describing a body part. 
+
+When play begins:
+	Repeat with part running through the body parts:
+		If part is part of the player:
+			Now owner's pronoun of part is "my";		
+		otherwise if part is part of a man:
+			Now owner's pronoun of part is "his";
+
 Part 3.1 - Specific Body Parts
 
 [Define body parts that are ready to use. These must explicitly be made part of any (or every) person that needs them.]
@@ -136,7 +146,7 @@ A pair of armpits is a kind of body part.
 The plural of some armpits is pairs of armpits. They are plural-named. The indefinite article is "a".
 The specification of pair of thighs is "Represents the thighs of a person. They are usually immodest and not rubbable or lickable."
 A pair of armpits is usually immodest.
-The description of armpits is usually "Hopefully, they are clean."
+The description of a pair of armpits is usually "Hopefully, they are clean."
 
 A chest is a kind of body part.
 The specification of pair of thighs is "Represents the chest/torso of a (usually male) person. It is usually immodest and both rubbable and lickable."
@@ -191,7 +201,7 @@ An ass is usually indecent.
 An ass is usually rubbable.
 The sexual ability of an ass is usually orificial.
 The description of an ass is usually "A pair of firm buttcheeks."
-Understand "ass / asshole / anus / rear / backside / butt / bottom / rump / rear end" as ass.
+Understand "ass / asshole / anus / rear / backside / butt / bottom / rump", "rear end" as ass.
 
 A penis is a kind of body part.
 The specification of penis is "Represents the penis of a (usually female) person. It is usually indecent and both rubbable and lickable. It is also considered penetrating, for us in fucking."
@@ -318,6 +328,11 @@ Section - Creating New Body Parts
 Adding a new kind of body part is very easy; Example D shows how feet are defined in the framework. The main work in adding new body parts is defining which parts of clothing fit over them; this is covered in the extensions for clothing / garments.
 
 Section - Version History
+
+Release 5 (v1.1a)
+
+	Bug fix on ass-synonyms.
+	Added a hack (courtesy of Mr. Flibble) for pronouns on body parts.
 
 Release 4 (v1.1)
 
